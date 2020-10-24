@@ -50,7 +50,7 @@ def video2frame(dataset,train_or_test,size1,size2):
                 imsave(os.path.join(vid_frame_path,'{:05d}.jpg'.format(count)),image) #生成图片 五位数
                 count += 1
 
-def rename():
+#def rename():
     #video = os.path
 
 # def resize():
@@ -58,7 +58,7 @@ def rename():
 
 def frame2video(dataset,train_or_test,size1,size2):
     """
-    :return: 将帧回复到视频
+    :return: 将帧回到视频
     """
     video_path = os.path.join(video_root_path, dataset, '{}_videoss'.format(train_or_test)) #生成视频的路径
     frame_path = os.path.join(frame_root_path,dataset,'{}_frames'.format(train_or_test))  #原视频帧的路径
@@ -81,14 +81,12 @@ def frame2video(dataset,train_or_test,size1,size2):
 
 def FD():
     """
-
     :return: 邻帧差分算法
     """
     pass
 
 def TFD():
     """
-
     :return: 三帧差分算法
     """
     pass
