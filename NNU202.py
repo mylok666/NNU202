@@ -1,6 +1,7 @@
 """
 author:zhangjie
 data :20201021
+School of Computer and Electronic Information, Nanjing Normal University
 I've integrated some common methods for working with data
 """
 import skvideo.io
